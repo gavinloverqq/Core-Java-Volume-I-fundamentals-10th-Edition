@@ -51,9 +51,50 @@ public class Chapter3 {
         System.out.println(sqrt(PI));// 静态倒入了Math包
     }
 
+    private static void test6() {
+        double a = 9.997;
+        int nx = (int)a;
+        System.out.println(nx); // 9 去尾取整
+        double b = 9.997;
+        int ny = (int)Math.round(b); // 10 四舍五入
+        System.out.println(ny);
+    }
+
+//    boolean和int不能转换
+    private static void test7() {
+        int a = 10;
+//        if (a) { // int 不能转换成boolean
+//            System.out.println("true");
+//        } else {
+//            System.out.println("true");
+//        }
+
+        boolean b = true;
+        if (b) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+
+        int c = b ? 1 : 0;//boolean 转换成int
+        System.out.println(c);
+    }
+
+    private static void test8() {
+        int a = 1;
+        int b = -16;
+        int c = -16;
+        System.out.println(a << 30);
+        System.out.println(a << 35);//右移要模32   等价于  1 << 3  = 8
+        System.out.println(b >> 2);//高位用符号位填充
+        System.out.println(c >>> 2);//高位填充零
+    }
     public static void main(String[] args){
         test3();
         test4();
         test5();
+        test6();
+        test7();
+        test8();
     }
 }
