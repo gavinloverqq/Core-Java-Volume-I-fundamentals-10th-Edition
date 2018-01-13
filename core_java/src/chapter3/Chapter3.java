@@ -89,6 +89,8 @@ public class Chapter3 {
         System.out.println(b >> 2);//高位用符号位填充
         System.out.println(c >>> 2);//高位填充零
     }
+
+
     public static void main(String[] args){
         test3();
         test4();
