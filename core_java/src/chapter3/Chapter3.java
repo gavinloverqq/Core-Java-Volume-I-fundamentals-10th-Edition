@@ -90,7 +90,21 @@ public class Chapter3 {
         System.out.println(c >>> 2);//高位填充零
     }
 
+//    枚举类型
+    enum Size {SMALL, MEDIUM, LARGE, EXTRA_LARGE};
+    private static void test9() {
+        Size s = Size.SMALL;
+        System.out.println(s);
+        System.out.println(Size.LARGE);
+    }
 
+    private static void test10() {
+        String s = "hello";
+        System.out.println(s.substring(1, 3));//子串
+        int age = 13;
+        String t = s + age;//java 中任何对象都可以转成字符串，字符串与非字符串连接后者被转化成串
+        System.out.println(t);
+    }
     public static void main(String[] args){
         test3();
         test4();
@@ -98,5 +112,7 @@ public class Chapter3 {
         test6();
         test7();
         test8();
+        test9();
+        test10();
     }
 }

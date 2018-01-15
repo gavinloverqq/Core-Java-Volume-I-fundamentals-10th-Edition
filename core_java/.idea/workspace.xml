@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26a0234-6fb5-4eb8-9bf5-476c25750b6a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter3/Chapter3.class" afterPath="$PROJECT_DIR$/out/production/core_java/chapter3/Chapter3.class" />
       <change beforePath="$PROJECT_DIR$/src/chapter3/Chapter3.java" afterPath="$PROJECT_DIR$/src/chapter3/Chapter3.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="Chapter3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter3/Chapter3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="91" column="43" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+            <state relative-caret-position="362">
+              <caret line="109" column="15" lean-forward="true" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -550,12 +552,12 @@
       <workItem from="1515137518821" duration="1104000" />
       <workItem from="1515479645509" duration="1822000" />
       <workItem from="1515658256521" duration="541000" />
-      <workItem from="1515659163633" duration="9298000" />
+      <workItem from="1515659163633" duration="10530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12765000" />
+    <option name="totallyTimeSpent" value="13997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="2050" height="1091" extended-state="6" />
@@ -658,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/Chapter3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="91" column="43" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+        <state relative-caret-position="362">
+          <caret line="109" column="15" lean-forward="true" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
