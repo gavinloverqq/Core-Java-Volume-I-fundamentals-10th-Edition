@@ -1,6 +1,14 @@
 package chapter3;
 
+import kotlin.io.ConsoleKt;
 import kotlin.io.FileSystemException;
+
+import java.io.Console;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Scanner;
+
 import static java.lang.Math.*;
 
 /**
@@ -80,6 +88,7 @@ public class Chapter3 {
         System.out.println(c);
     }
 
+//    移位操作
     private static void test8() {
         int a = 1;
         int b = -16;
@@ -118,14 +127,86 @@ public class Chapter3 {
 
 
         String s3 = "help";
-        if (s3 == s2) {//不能使用 == 检测两个字符串是否相等
+        if (s3 == s2) {//不能使用 == 检测两个字符串是否相等, 此处有可能相等有可能不等
             System.out.println("test ==  for string");
+        }
+        if (s3.substring(0, 3) == "hel") { //相同的字符串共享，但只有字符串常量是共享的，而+和substring等操作产生的结果并不共享
+            System.out.println("test substring == false");
+        }
+        if (s3.substring(0, 3).compareTo("hel") == 0) {
+            System.out.println("test string like c style");
         }
     }
 
+//    代码点和代码单元，一个代码点由多个代码单元组成
     private static void test12() {
+        String s = "hello";
+        int n = s.length();
+        int cpCount = s.codePointCount(0, s.length());
+        char first = s.charAt(0);
+        char last = s.charAt(4);
+        System.out.println(n);
+        System.out.println(cpCount);
+        System.out.println(first);
+        System.out.println(last);
 
+        int[] codePionts = s.codePoints().toArray();
+        for(int i = 0; i < codePionts.length; i++)
+            System.out.print(codePionts[i] + " ");
+        System.out.println();
     }
+
+//    stringBuilder 可以用于构建字符串，比用+或substring节约空间和时间，stringBuilder是单线程的，stringBuffer是多线程的
+    private static void test13() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("i");
+        String s = "hello";
+        builder.append(s);
+        System.out.println(builder);
+    }
+
+//    读入
+    private static void test14() {
+        Scanner in = new Scanner(System.in);
+        String s = in.next();
+        System.out.println(s);
+        int age = in.nextInt();
+        System.out.println(age);
+        if (in.hasNext()) {
+            int s1 = in.nextInt();
+            System.out.println(s1);
+        }
+    }
+
+//    console类
+    private static void test15() {
+        Console cons = System.console();
+        String name = cons.readLine("User name: ");
+        char[] passwd = cons.readPassword("Passwd: ");
+        System.out.println(name + " " + passwd);
+    }
+
+//    格式化输出
+    private static void test16() {
+        double x = 1000.0/33;
+        System.out.printf("%8.2f\n", x);//java支持格式化是输出，注意是printf
+        String name = "shabi";
+        int age = 10;
+        String s = String.format("hello %s %d %<x", name, age);// %< 是格式化前面的数值
+        System.out.println(s);
+    }
+
+    private static void test17() {
+        try {
+            Scanner in  = new Scanner(Paths.get("/home/kunwan/javaWorkspace/Core-Java-Volume-I-fundamentals-10th-Edition/core_java/src/chapter3/myfile.txt"), "UTF-8");
+            while (in.hasNext()){
+                System.out.println(in);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String[] args){
         test3();
         test4();
@@ -136,5 +217,11 @@ public class Chapter3 {
         test9();
         test10();
         test11();
+        test12();
+        test13();
+//        test14();
+//        test15();
+        test16();
+        test17();
     }
 }
