@@ -105,6 +105,27 @@ public class Chapter3 {
         String t = s + age;//java 中任何对象都可以转成字符串，字符串与非字符串连接后者被转化成串
         System.out.println(t);
     }
+
+//    Java的字符串认为是不可变的
+    private static void test11() {
+        String s = "greeting";
+        s = s.substring(0, 3) + "p!";
+        System.out.println(s);
+        String s2 = "help";
+        System.out.println(s.equals(s2));//字符串比较函数
+        System.out.println("help".equals(s2));//字符串比较函数,可以使用字符串字面量
+        System.out.println("Help".equalsIgnoreCase(s2));//不区分大小写
+
+
+        String s3 = "help";
+        if (s3 == s2) {//不能使用 == 检测两个字符串是否相等
+            System.out.println("test ==  for string");
+        }
+    }
+
+    private static void test12() {
+
+    }
     public static void main(String[] args){
         test3();
         test4();
@@ -114,5 +135,6 @@ public class Chapter3 {
         test8();
         test9();
         test10();
+        test11();
     }
 }
