@@ -5,8 +5,11 @@ import kotlin.io.FileSystemException;
 
 import java.io.Console;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.math.BigInteger;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.Math.*;
@@ -196,18 +199,74 @@ public class Chapter3 {
         System.out.println(s);
     }
 
-    private static void test17() {
+    private static void test17() throws IOException {
         try {
             Scanner in  = new Scanner(Paths.get("/home/kunwan/javaWorkspace/Core-Java-Volume-I-fundamentals-10th-Edition/core_java/src/chapter3/myfile.txt"), "UTF-8");
+//            String s1 = in.next();
+//            System.out.println(s1);
+            PrintWriter out = new PrintWriter("/home/kunwan/javaWorkspace/Core-Java-Volume-I-fundamentals-10th-Edition/core_java/src/chapter3/myfileOut.txt", "UTF-8");
             while (in.hasNext()){
-                System.out.println(in);
+                String tmp = in.next();
+                out.write(tmp);
+//                out.print(tmp);
+//                System.out.println(tmp);
             }
+            out.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public static void main(String[] args){
+//    java中不能像c++一样用区域的定义覆盖大区域的定义
+    private static void test18() {
+        int n = 10;
+        {
+//            int n = 11;//Error:(221, 17) java: variable n is already defined in method test18()
+        }
+    }
+
+//    带label的break
+    private static void test19() {
+        int n = 10;
+        breakLable:
+        while (n-- > 0) {
+            for (int i = 100; i < 110; i++) {
+                System.out.println(i);
+                if (i == 105)
+                    break breakLable;
+            }
+        }
+    }
+
+    private static void test20() {
+        BigInteger bigInt = new BigInteger("123456789123456789123456789");//构造器接收字符串变量
+        BigInteger bigInteger = bigInt.add(BigInteger.valueOf(123));//只和bignteger做运算
+        System.out.println(bigInteger);
+    }
+
+//    注意foreach语句，前面是元素而不是下标
+    private static void test21() {
+        int n = 10;
+        int a[] = new int[n];//支持用变量定义数组大小
+        int[] b = {1, 2, 3};//两种定义方法都可以
+        for (int i = 0; i < 10; i++) {
+            a[i] = i*2;
+        }
+        for (int i = 0; i < 10; i++) {
+            System.out.println(a[i]);
+//            System.out.println(b[i]);//尝试访问边界外的会直接异常// Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+        }
+        System.out.println("********************");
+        for (int element : a) {//此处的循环前面是元素而不是下标
+             System.out.println(element);
+        }
+        System.out.println(Arrays.toString(a));
+
+
+    }
+
+
+    public static void main(String[] args) throws Exception {
         test3();
         test4();
         test5();
@@ -223,5 +282,9 @@ public class Chapter3 {
 //        test15();
         test16();
         test17();
+        test18();
+        test19();
+        test20();
+        test21();
     }
 }
