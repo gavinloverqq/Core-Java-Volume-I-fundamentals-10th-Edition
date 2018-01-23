@@ -261,10 +261,61 @@ public class Chapter3 {
              System.out.println(element);
         }
         System.out.println(Arrays.toString(a));
-
-
     }
 
+//    java的数组全部在堆内存
+    private static void test22() {
+        int[] arr = {1, 2, 3};
+        arr = new int[] {3, 4, 5, 6};
+        System.out.println(Arrays.toString(arr));//匿名数组
+        int[] arr2 = {1, 1, 1, 1};
+        arr = arr2;//两个数组指向同一块内存
+        System.out.println(Arrays.toString(arr));//匿名数组
+        int[] arr3 = Arrays.copyOf(arr, arr.length);//两块内存
+        System.out.println(Arrays.toString(arr3));//匿名数组
+
+        int[] arr4 = Arrays.copyOf(arr2, arr2.length * 2);//使用此方法增加数组的大小
+        int[] arr5 = Arrays.copyOf(arr2, arr2.length - 2);//使用此方法减小数组的大小
+    }
+
+    private static void test23() {
+        int[] numbers = new int[50];
+        int[] results = new int[5];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i+1;
+        }
+        int n = numbers.length;
+        for (int i = 0; i < results.length; i++) {
+            int r = (int)(Math.random() * n);
+            results[i] = numbers[r];
+            numbers[r] = numbers[n-1];
+            n--;
+        }
+        Arrays.sort(results);
+        System.out.println(Arrays.toString(results));
+    }
+
+//    不规则数组和多维数组
+    private static void test24() {
+        int[][] arr = {
+                {1, 2, 3},
+                {2, 3, 4},
+                {3, 4, 5}
+        };
+        System.out.println(Arrays.deepToString(arr));
+
+        int n = 10;
+        int[][] odds = new int[n][];
+        for (int i = 0; i < n; i++) {
+            odds[i] = new int[i];
+        }
+        for (int i = 0; i < odds.length; i++) {
+            for (int j = 0; j < odds[i].length; j++) {
+                odds[i][j] = i*j;
+            }
+        }
+        System.out.println(Arrays.deepToString(odds));
+    }
 
     public static void main(String[] args) throws Exception {
         test3();
@@ -286,5 +337,8 @@ public class Chapter3 {
         test19();
         test20();
         test21();
+        test22();
+        test23();
+        test24();
     }
 }

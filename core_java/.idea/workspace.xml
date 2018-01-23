@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26a0234-6fb5-4eb8-9bf5-476c25750b6a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter3/Chapter3$Size.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter3/Chapter3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter3/Chapter3.class" afterPath="$PROJECT_DIR$/out/production/core_java/chapter3/Chapter3.class" />
       <change beforePath="$PROJECT_DIR$/src/chapter3/Chapter3.java" afterPath="$PROJECT_DIR$/src/chapter3/Chapter3.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="Chapter3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter3/Chapter3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="262" column="32" lean-forward="false" selection-start-line="262" selection-start-column="32" selection-end-line="262" selection-end-column="32" />
+            <state relative-caret-position="380">
+              <caret line="314" column="51" lean-forward="false" selection-start-line="314" selection-start-column="51" selection-end-line="314" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -609,12 +609,12 @@
       <workItem from="1515137518821" duration="1104000" />
       <workItem from="1515479645509" duration="1822000" />
       <workItem from="1515658256521" duration="541000" />
-      <workItem from="1515659163633" duration="27081000" />
+      <workItem from="1515659163633" duration="31286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30548000" />
+    <option name="totallyTimeSpent" value="34753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="2050" height="1091" extended-state="6" />
@@ -744,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/Chapter3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="262" column="32" lean-forward="false" selection-start-line="262" selection-start-column="32" selection-end-line="262" selection-end-column="32" />
+        <state relative-caret-position="380">
+          <caret line="314" column="51" lean-forward="false" selection-start-line="314" selection-start-column="51" selection-end-line="314" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
