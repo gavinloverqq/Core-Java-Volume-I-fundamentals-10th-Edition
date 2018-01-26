@@ -6,8 +6,8 @@ import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
 
-public class chapter4 {
-    public static void test0() {
+public class Chapter4 {
+    static void test0() {
         Date date;//date 只是一个变量
 //        System.out.println(date.toString());//Error:(9, 28) java: variable date might not have been initialized
         date = new Date(); // new Date()是一个对象，绑定到date上
@@ -16,12 +16,12 @@ public class chapter4 {
 //        System.out.println(date.toString());//将date设置成null
     }
 
-    public static void test1() {
+    static void test1() {
         System.out.println(LocalDate.now());
         System.out.println(LocalDate.of(1999,9,1));
     }
 
-    public static void test2() {
+    static void test2() {
         LocalDate date = LocalDate.now();
         int month = date.getMonthValue();
         int today = date.getDayOfMonth();
