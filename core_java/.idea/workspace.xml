@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26a0234-6fb5-4eb8-9bf5-476c25750b6a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chapter4/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chapter4/EmployeeTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chapter4/testOf4_3_6/A.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chapter4/testOf4_3_6/TestA.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter4/chapter4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter4/readme.md" afterPath="$PROJECT_DIR$/out/production/core_java/chapter4/readme.md" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/chapter4.java" afterPath="$PROJECT_DIR$/src/chapter4/Chapter4.java" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Employee.java" afterPath="$PROJECT_DIR$/src/chapter4/Employee.java" />
       <change beforePath="$PROJECT_DIR$/src/chapter4/readme.md" afterPath="$PROJECT_DIR$/src/chapter4/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,15 +43,15 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter4/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,24 +84,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestA.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter4/testOf4_3_6/TestA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+            <state relative-caret-position="-29">
+              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="e#97#98#0" expanded="true" />
                 <element signature="e#128#129#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter4/EmployeeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -121,8 +115,8 @@
         <entry file="file://$PROJECT_DIR$/src/chapter4/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <first_editor relative-caret-position="90">
+                <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -159,10 +153,10 @@
         <option value="$PROJECT_DIR$/src/chapter4/chapter4.java" />
         <option value="$PROJECT_DIR$/src/chapter4/Chapter4.java" />
         <option value="$PROJECT_DIR$/src/chapter4/EmployeeTest.java" />
-        <option value="$PROJECT_DIR$/src/chapter4/Employee.java" />
-        <option value="$PROJECT_DIR$/src/chapter4/readme.md" />
         <option value="$PROJECT_DIR$/src/chapter4/testOf4_3_6/A.java" />
         <option value="$PROJECT_DIR$/src/chapter4/testOf4_3_6/TestA.java" />
+        <option value="$PROJECT_DIR$/src/chapter4/readme.md" />
+        <option value="$PROJECT_DIR$/src/chapter4/Employee.java" />
       </list>
     </option>
   </component>
@@ -256,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestA">
+  <component name="RunManager" selected="Application.EmployeeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -713,8 +707,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestA" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EmployeeTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EmployeeTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestA" />
         <item index="2" class="java.lang.String" itemvalue="Application.chapter4" />
         <item index="3" class="java.lang.String" itemvalue="Application.Chapter3" />
       </list>
@@ -741,12 +735,12 @@
       <workItem from="1515137518821" duration="1104000" />
       <workItem from="1515479645509" duration="1822000" />
       <workItem from="1515658256521" duration="541000" />
-      <workItem from="1515659163633" duration="46911000" />
+      <workItem from="1515659163633" duration="48882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50378000" />
+    <option name="totallyTimeSpent" value="52349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="2050" height="1091" extended-state="6" />
@@ -760,9 +754,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38282079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38282079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33934253" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33934253" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26376376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -874,46 +868,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4/Chapter4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,16 +913,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4/testOf4_3_6/TestA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+        <state relative-caret-position="-29">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="e#97#98#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

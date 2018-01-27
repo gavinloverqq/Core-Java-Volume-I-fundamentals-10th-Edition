@@ -3,12 +3,12 @@ package chapter4;
 import java.time.LocalDate;
 
 class Employee {
-    private String name;
+    private final String name;//一定要在构造器中初始化，确保构造器执行后必须被设值
     private double salary;
     private LocalDate hireDay;
 
     public Employee(String n, double s, int year, int month, int day) {
-        name = n;
+//        name = n;
         salary = s;
 //        double salary = s; //不能在构造器中定义重名局部变量，例如这个语句是无法设置salary的
         hireDay = LocalDate.of(year, month, day);
