@@ -8,7 +8,7 @@ class Employee {
     private LocalDate hireDay;
 
     public Employee(String n, double s, int year, int month, int day) {
-//        name = n;
+        name = n;
         salary = s;
 //        double salary = s; //不能在构造器中定义重名局部变量，例如这个语句是无法设置salary的
         hireDay = LocalDate.of(year, month, day);

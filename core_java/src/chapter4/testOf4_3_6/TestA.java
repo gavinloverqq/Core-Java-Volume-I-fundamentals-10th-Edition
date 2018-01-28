@@ -32,6 +32,5 @@ public class TestA {
         aCls.setA(7);//此处可以修改TestA类中的private成员的值
         System.out.println("a in A class is " + testA.printAClass());
 
-
     }
 }
