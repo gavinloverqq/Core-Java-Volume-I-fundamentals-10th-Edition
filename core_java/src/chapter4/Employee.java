@@ -3,7 +3,7 @@ package chapter4;
 import java.time.LocalDate;
 
 class Employee {
-    private final String name;//一定要在构造器中初始化，确保构造器执行后必须被设值
+    private String name;//一定要在构造器中初始化，确保构造器执行后必须被设值
     private double salary;
     private LocalDate hireDay;
     private static int nextId = 1;
@@ -19,6 +19,11 @@ class Employee {
         salary = s;
 //        double salary = s; //不能在构造器中定义重名局部变量，例如这个语句是无法设置salary的
         hireDay = LocalDate.of(year, month, day);
+    }
+
+//    静态初始化块
+    static {
+        System.out.println("static initialization block");
     }
 
     private static int assignId() {

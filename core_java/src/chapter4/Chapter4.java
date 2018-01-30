@@ -5,6 +5,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
+import chapter4.testOfPackage.*;
 
 public class Chapter4 {
     static void test0() {
@@ -60,5 +61,10 @@ public class Chapter4 {
         test0();
         test1();
         test2();
+
+//      public修饰的类才能在别的包里调用其public方法
+        testPackage.publicPrint();
+//        testPackage.defualtPrint();//其他包是无法调用未加修饰的方法的
+//        testCompetence.publicPrint();
     }
 }
