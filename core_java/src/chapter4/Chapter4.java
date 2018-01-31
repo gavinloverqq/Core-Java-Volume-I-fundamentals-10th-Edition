@@ -52,6 +52,7 @@ public class Chapter4 {
         if (date.getDayOfWeek().getValue() == 1) {
             System.out.println();
         }
+
     }
 
 
