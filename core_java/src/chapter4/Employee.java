@@ -2,7 +2,7 @@ package chapter4;
 
 import java.time.LocalDate;
 
-class Employee {
+public class Employee {
     private String name;//一定要在构造器中初始化，确保构造器执行后必须被设值
     private double salary;
     private LocalDate hireDay;
