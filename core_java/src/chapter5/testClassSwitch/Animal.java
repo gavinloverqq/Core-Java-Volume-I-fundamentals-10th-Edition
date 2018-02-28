@@ -52,11 +52,14 @@ class Dog extends Animal {
 
         Dog[] arrDogs = new Dog[3];
         arrDogs[0] = dog;
-//        arrDogs[1] = animal;
+
+//        arrDogs[1] = animal;//狗是动物，但动物不一定都是狗
 //        arrDogs = arrAnimal;
+
+//        animal和dog引用了同一段内存，下面可以用对animal数组初始化，此时调用arrDogs.say()会调用一个不存在的实例域
         arrAnimal = arrDogs;
-        arrAnimal[0] = new Animal("cat");
-        arrAnimal[0].say();
+        arrAnimal[0] = new Animal("cat");//试图存储就会引发异常：java.lang.ArrayStoreException
+//        arrDogs[0].say();
 
     }
 }
