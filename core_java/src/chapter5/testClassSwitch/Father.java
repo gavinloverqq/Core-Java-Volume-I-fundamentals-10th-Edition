@@ -24,6 +24,12 @@ public class Father {
     public Father getClas() {
        return new Father(100000, "new father");
     }
+
+
+//    用final，子类不能覆盖该方法
+    public final void noInher() {
+        System.out.println("final test");
+    }
 }
 
 class Son extends Father {
@@ -52,11 +58,17 @@ class Son extends Father {
         return new Son(99999, 0, "new son");
     }
 
+//    用final，子类不能覆盖该方法
+//    public void noInher() {
+//
+//    }
+
     public static void main(String[] args) {
         Father father = new Father(10, "laozi");
         Son son = new Son(5, 20, "erzi");
 
         son.name();
+        son.noInher();
 
 //        可协变返回类型
         father = father.getClas();
@@ -67,6 +79,14 @@ class Son extends Father {
 
         father = father.getClas();
         father.name();
+
+//        java类型转换失败时会抛出异常，c++失败时返回null
+        Father[] arrF = new Father[3];
+        arrF[0] = son;
+        if (arrF[0] instanceof Son) {
+            son = (Son) arrF[0];
+            System.out.println("instance test");
+        }
 
     }
 }

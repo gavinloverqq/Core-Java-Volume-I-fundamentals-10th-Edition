@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26a0234-6fb5-4eb8-9bf5-476c25750b6a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chapter5/testClassSwitch/Father.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter5/readme.md" afterPath="$PROJECT_DIR$/out/production/core_java/chapter5/readme.md" />
-      <change beforePath="$PROJECT_DIR$/out/production/core_java/chapter5/testClassSwitch/Dog.class" afterPath="$PROJECT_DIR$/out/production/core_java/chapter5/testClassSwitch/Dog.class" />
-      <change beforePath="$PROJECT_DIR$/src/chapter5/readme.md" afterPath="$PROJECT_DIR$/src/chapter5/readme.md" />
-      <change beforePath="$PROJECT_DIR$/src/chapter5/testClassSwitch/Animal.java" afterPath="$PROJECT_DIR$/src/chapter5/testClassSwitch/Animal.java" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/testClassSwitch/Father.java" afterPath="$PROJECT_DIR$/src/chapter5/testClassSwitch/Father.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +78,8 @@
       <file leaf-file-name="Father.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter5/testClassSwitch/Father.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="254">
+              <caret line="82" column="39" lean-forward="false" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
               <folding>
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
@@ -94,12 +89,14 @@
                 <element signature="e#364#365#0" expanded="true" />
                 <element signature="e#395#396#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -842,7 +839,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79031000" />
+    <option name="totallyTimeSpent" value="81613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="2050" height="1091" extended-state="6" />
@@ -1453,8 +1450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter5/testClassSwitch/Father.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="254">
+          <caret line="82" column="39" lean-forward="false" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
           <folding>
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -1464,12 +1461,14 @@
             <element signature="e#364#365#0" expanded="true" />
             <element signature="e#395#396#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
           </folding>
         </state>
       </provider>
