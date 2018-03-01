@@ -30,6 +30,16 @@ public class Father {
     public final void noInher() {
         System.out.println("final test");
     }
+
+//    显式的标记一个方法覆盖父类方法
+    @Override public boolean equals(Object other) {
+        return false;
+    }
+
+//    如果父类没有这个方法，直接标记出错
+//    @Override public boolean equals(Father other) {
+//        return false;
+//    }
 }
 
 class Son extends Father {
