@@ -15,4 +15,4 @@ java.util.Objects
 This class consists of static utility methods for operating on objects. These utilities include null-safe or null-tolerant methods for computing the hash code of an object, returning a string for an object, and comparing two objects.
 ```
 10. Java中避免NullPointerException的一些方法:https://segmentfault.com/a/1190000002477715
-
+11. == 比的时存储区域（地址）， equal比的是对象域的值

@@ -1,6 +1,7 @@
 package chapter5.arrayList;
 
 import org.jetbrains.annotations.NotNull;
+import org.omg.CORBA.IntHolder;
 
 import java.util.ArrayList;
 
@@ -16,6 +17,20 @@ public class TestArrayList {
         ArrayList<String> arrStr = new ArrayList<>();
         arrStr.add(s);
         return arrStr;
+    }
+
+    public static void trip(IntHolder i) {
+        i.value = 3 * i.value;
+    }
+
+//    可变参数
+    public static double findMax(double... values) {
+        double largest = Double.NEGATIVE_INFINITY;
+        for (double x : values) {
+            if (x > largest)
+                largest = x;
+        }
+        return largest;
     }
 
     public static void main(String[] args) {
@@ -41,10 +56,37 @@ public class TestArrayList {
         update(arrS);
 //        update(null);
         update(arrInt);
-
-        arrS = find("ok");
         System.out.println(arrS.toString());
         System.out.println(String.valueOf(arrS));//使用string.valueof（）可避免nullPointerException
+
+//      使用@SuppressWarnings可以屏蔽warnning
+        @SuppressWarnings("unchecked") ArrayList<String> result = find("ok");
+
+
+
+//        自动装箱与自动拆相,128一内的int值被包装到固定的对象中，可用==来比较，超过128，由于在不同的对象中，需要用equal来比较
+        Integer n = 3;
+        Integer n2 = 3;
+        if (n == n2) {
+            System.out.println("n == n2");
+        }
+
+        Integer n3 = 300;
+        Integer n4 = 300;
+        if (n3 == n4) {
+            System.out.println("n3 == n4");
+        }
+        if (n3.equals(n4)) {
+            System.out.println("n3 equal n4");
+        }
+
+//        Integer中的值是不变的，不能通过trip函数的形式改变值
+        IntHolder i = new IntHolder(3);
+        trip(i);
+        System.out.println(i.value);
+
+
+        System.out.println(findMax(3.2, 4.8, 9.22, 2.333));
     }
 }
 
